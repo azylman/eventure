@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="fullcalendar/fullcalendar/fullcalendar.css" />
 </head>
 <body>
 <div class="container">
@@ -25,8 +26,18 @@
 			</div>
 		</div>
 	</div>
+	<div id="calendar"></div>
 </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="fullcalendar/fullcalendar/fullcalendar.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        // put your options and callbacks here
+		defaultView: "agendaWeek",
+    });
+});
+</script>
 </body>
 </html>
