@@ -1,0 +1,7 @@
+.recommendation {
+	opacity: .3;
+}
+
+.recommendation:hover {
+	opacity: 1;
+}
