@@ -1,7 +1,15 @@
 .recommendation {
 	opacity: .3;
+	z-index: -1 !important;
 }
 
 .recommendation:hover {
 	opacity: 1;
+	z-index: 2 !important;
+}
+
+.sponsored {
+	position: relative;
+	opacity: .7;
+	z-index: 1 !important;
 }
