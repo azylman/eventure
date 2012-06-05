@@ -4,14 +4,18 @@ var recommendations = [
 		start  : '2012-06-03 12:30:00',
 		end  : '2012-06-03 15:30:00',
 		allDay : false, // will make the time show
-		desc : 'R1 desc'
+		desc : 'R1 desc',
+		times : 'R1 times',
+		location : 'R1 location'
 	},
 	{
 		title  : 'Recommendation 2',
 		start  : '2012-06-03 15:30:00',
 		end  : '2012-06-03 16:30:00',
 		allDay : false, // will make the time show
-		desc : 'R2 desc'
+		desc : 'R2 desc',
+		times : 'R2 times',
+		location : 'R2 location'
 	}
 ];
 
@@ -21,14 +25,18 @@ var sponsoredRecommendations = [
 		start  : '2012-06-03 10:30:00',
 		end  : '2012-06-03 13:30:00',
 		allDay : false, // will make the time show
-		desc : 'S1 desc'
+		desc : 'S1 desc',
+		times : 'S1 times',
+		location : 'S1 location'
 	},
 	{
 		title  : 'Sponsored 2',
 		start  : '2012-06-03 16:30:00',
 		end  : '2012-06-03 18:30:00',
 		allDay : false, // will make the time show
-		desc : 'S2 desc'
+		desc : 'S2 desc',
+		times : 'S2 times',
+		location : 'S2 location'
 	}
 ];
 
@@ -77,7 +85,7 @@ $(document).ready(function() {
 							text: event.title,
 							button: 'X'
 						},
-						text: event.desc
+						text: createComplexText(event)
 					},
 					position: {
 						my: 'center',
@@ -99,3 +107,9 @@ $(document).ready(function() {
 		}
     });
 });
+
+function createComplexText(event) {
+	var text = "";
+	text += event.desc;
+	return text;
+}
