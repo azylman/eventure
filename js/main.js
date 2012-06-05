@@ -110,6 +110,13 @@ $(document).ready(function() {
 
 function createComplexText(event) {
 	var text = "";
+	text += "<div class='metadata'><span class='times'>";
+	text += event.times;
+	text += "</span> - <span class='location'>";
+	text += event.location;
+	text += "</span></div>";
+	text += "<div class='description'>";
 	text += event.desc;
+	text += "</div>";
 	return text;
 }
