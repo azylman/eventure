@@ -53,6 +53,11 @@ $(document).ready(function() {
 				content: {
 					text: event.desc,
 					title: event.title
+				},
+				position: {
+					my: 'left center',
+					at: 'right center',
+					target: $(element)
 				}
 			});
 		}
