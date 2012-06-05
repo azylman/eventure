@@ -39,3 +39,9 @@
 .complex .ui-state-default {
 	right: 8px;
 }
+
+.complex .tooltip-metadata {
+	padding-top: 9px;
+	font-size: 16px;
+	line-height: 16px;
+}
