@@ -58,6 +58,78 @@ var recommendations = [
 		image : 'http://images.businessweek.com/ss/09/08/0811_northwestern_school_tour/image/lakefill.jpg',
 		ticket : '#',
 		price: 'free'
+	},
+	{
+		title  : 'Volunteer At City Farm',
+		start  : '2012-06-11 13:00:00',
+		end  : '2012-06-11 15:00:00',
+		allDay : false,
+		desc : "The Resource Center of Chicago has been turning vacant lots into vibrant, healthy community farms for over three decades. The farm's produce goes directly for sale to the public as a healthy, organic, affordable way to support local communities. You can even pick up some pointers about starting your own personal garden! Buses will be provided to and from campus for this event. Spots are limited for this event.",
+		times : '1:00 PM',
+		location : '1204 N Clybourn Ave, Chicago, IL 60610',
+		image : 'http://www.resourcecenterchicago.org/images/viewfromroof2.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$5'
+	},
+	{
+		title  : 'Private Show at ComedySportz',
+		start  : '2012-06-11 17:30:00',
+		end  : '2012-06-11 19:00:00',
+		allDay : false,
+		desc : "Still don't know what the big deal is about the Chicago comedy scene? The longest-running short-form improv show in Chicago is putting on a private show just for Northwestern seniors! Come see this 90 minute show conveniently located just steps off the Belmont Red Line stop. Come 15-30 minutes prior to showtime to assure seating. Transportation is not included in your ticket.",
+		times : '5:30 PM',
+		location : '929 W. Belmont Avenue, Chicago, IL',
+		image : 'http://img4.findthebest.com/sites/default/files/358/media/images/Comedy_Sportz_Theatre.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$15'
+	},
+	{
+		title  : 'Kayak the Chicago River',
+		start  : '2012-06-12 10:00:00',
+		end  : '2012-06-12 14:00:00',
+		allDay : false,
+		desc : "For the outdoorsmen among us - jump in your kayak and paddle down the Chicago River! You'll see the architecture and sites of the city from a whole new perspective. Get ready to have some fun splashing around in the sun on this guided tour. Buses will be provided to and from campus for this event.",
+		times : '10:00 AM',
+		location : 'Norris University Center, 1999 Campus Drive, Evanston, IL',
+		image : 'http://archive.mensjournal.com/wp-content/uploads/m193urba.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$55'
+	},
+	{
+		title  : 'Volunteer at Ronald McDonald House',
+		start  : '2012-06-12 10:00:00',
+		end  : '2012-06-12 14:00:00',
+		allDay : false,
+		desc : "This year, we are proud to offer community service opportunities for the first time as part of Senior Week! We will be taking small groups of NU seniors to the Chicago Ronald McDonald House for Children's Memorial Hospital to cook lunch for the children and their families.",
+		times : '10:00 AM',
+		location : 'Ronald McDonald House, 622 West Deming Place, Chicago, IL',
+		image : 'http://americajanespeaks.net/wp-content/uploads/2011/06/Ronald-McDonald-House.jpg',
+		ticket : '#',
+		price: 'free'
+	},
+	{
+		title  : 'Chicago Pizza Tour',
+		start  : '2012-06-12 11:00:00',
+		end  : '2012-06-12 14:00:00',
+		allDay : false,
+		desc : "How many of us have only consumed Chicago-style pizza way too late after a Monday night out on the town? Enjoy this double decker bus ride through the city and sample slices at some of Chicago's finest and most historic pizzerias. Meet at our first location, Pizano's Pizza (61 E. Madison Street), in the Loop.",
+		times : '11:00 AM',
+		location : "Pizano's Pizza & Pasta, 61 East Madison Street, Chicago, IL",
+		image : 'http://www.chisoxcollector.com/images/kim/John.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$28.50'
+	},
+	{
+		title  : 'Museum of Contemporary Art',
+		start  : '2012-06-12 13:00:00',
+		end  : '2012-06-12 15:00:00',
+		allDay : false,
+		desc : "Pshaw... the Art Institute? Who do you think I am? A freshman? This Senior Week, get your culture on at the Museum of Contemporary Art! The MCA offers exhibitions of the most thought-provoking art created since 1945. Easily accessed via the Intercampus or the CTA.",
+		times : '1:00 PM',
+		location : "220 E. Chicago Avenue, Chicago, IL",
+		image : 'http://byteful.com/media/d/6429-4/Steps+up+to+Chicago+Museum+of+Contemp+Art.jpg',
+		ticket : '#',
+		price: 'free'
 	}
 ];
 
@@ -145,6 +217,30 @@ var sponsoredRecommendations = [
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$13'
+	},
+	{
+		title  : 'Last Lecture',
+		start  : '2012-06-11 20:00:00',
+		end  : '2012-06-11 21:00:00',
+		allDay : false,
+		desc : "In true Nerdwestern fashion, the highlight of Senior Week will be a lecture from a faculty member! Over a thousand seniors go to the historic Wrigleyville bar, The Cubby Bear, and enjoy a fun, funny and inspirational lecture given by the class-elected speaker. Transportation is not included in your ticket. This event is 21+.",
+		times : '8:00 PM',
+		location : '1059 W. Addison Street, Chicago, IL',
+		image : 'http://www.chibarproject.com/Reviews/CubbyBear/CubbyBearHotAM.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$10'
+	},
+	{
+		title  : 'Senior Formal',
+		start  : '2012-06-12 19:00:00',
+		end  : '2012-06-12 23:00:00',
+		allDay : false,
+		desc : "Swanky boat. Lots of dancing. The beautiful Chicago skyline on a warm summer night. It's Senior Formal 2012. Dress to impress (but please, this is not prom :)) and get ready to celebrate! Ticket includes bus to and from Navy Pier (buses load at 7pm at various locations around campus) and hor d'oeuvres on the boat. A cash bar is available, which is why this event is 21+ only. Cruise goes from 8:30 to 11pm, and you're free to continue the party downtown or take the buses back to Evanston.",
+		times : '7:00 PM',
+		location : 'Navy Pier, 700 East Grand Avenue, Chicago, IL',
+		image : 'http://chicagoweddingvenues.com/main/images/anita_dee/anita_dee_01.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$29'
 	}
 ];
 
