@@ -42,6 +42,12 @@ $(document).ready(function() {
 				],
 				className: "sponsored recommendation"
 			}
-		]
+		],
+		eventAfterRender: function( event, element, view) {
+			console.log("test");
+			$(element).qtip({
+				content: 'Additional event data'
+			});
+		}
     });
 });
