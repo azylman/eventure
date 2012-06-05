@@ -417,10 +417,12 @@ $('#calendar').fullCalendar({
 					console.log("found kayak");
 					kayak = element;
 					kayakid = $(element).qtip('option', 'id');
-					$("#ui-tooltip-" + kayakid + " .tooltip-dvadd").live(
+					$("#ui-tooltip-" + kayakid + " .tooltip-add").live(
 						'click',
 						function() {
-							alert('clicking kayak');
+							addEventToCalendar(ron2);
+							addEventToCalendar(kayak);
+							removeEventFromCalendar(ron1);
 					});
 					break;
 				case 3:
@@ -465,6 +467,10 @@ function createComplexText(event) {
 function addEventToCalendar(element) {
 	$(element).css('opacity', '1');
 	colorEvent(element, '#36C');
+}
+
+function removeEventFromCalendar(element) {
+	colorEvent(element, '#33CC7A');
 }
 
 function colorEvent(element, color) {
