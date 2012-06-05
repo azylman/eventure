@@ -394,3 +394,9 @@ function createComplexText(event) {
 	text += "'>Buy tickets!</a> - <a href='#'>Add to calendar</a></div>";
 	return text;
 }
+
+var ron1 = "";
+
+var kayak = "";
+
+var ron2 = "";
