@@ -1,55 +1,19 @@
 var recommendations = [
 	{
-		title  : 'Recommendation 1',
-		start  : '2012-06-03 12:30:00',
-		end  : '2012-06-03 15:30:00',
+		title  : 'Class Photo & March Thru the Arch',
+		start  : '2012-06-08 17:30:00',
+		end  : '2012-06-08 18:00:00',
 		allDay : false,
-		desc : 'R1 desc',
-		times : 'R1 times',
-		location : 'R1 location',
-		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
+		desc : "At the end of finals week, the Class of 2012 will gather at the Rock for our class picture and remarks from Dean Burgie Howard. Though our class never got to March Thru the Arch as freshmen, we're excited to carry on this new tradition as we mark the completion of our academic requirements. Get your Instagram ready - this is the first of many Tweetable moments in Senior Week!",
+		times : '5:30PM',
+		location : 'The Rock outside University Hall',
+		image : 'http://upload.wikimedia.org/wikipedia/commons/a/a8/Northwestern_Arch.jpg',
 		ticket : '#',
-		price: 'R1 price'
-	},
-	{
-		title  : 'Recommendation 2',
-		start  : '2012-06-03 15:30:00',
-		end  : '2012-06-03 16:30:00',
-		allDay : false,
-		desc : 'R2 desc',
-		times : 'R2 times',
-		location : 'R2 location',
-		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
-		ticket : '#',
-		price: 'R2 price'
+		price: 'free'
 	}
 ];
 
 var sponsoredRecommendations = [
-	{
-		title  : 'Sponsored Recommendation 1',
-		start  : '2012-06-03 10:30:00',
-		end  : '2012-06-03 13:30:00',
-		allDay : false,
-		desc : 'S1 desc',
-		times : 'S1 times',
-		location : 'S1 location',
-		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
-		ticket : '#',
-		price: 'S1 price'
-	},
-	{
-		title  : 'Sponsored 2',
-		start  : '2012-06-03 16:30:00',
-		end  : '2012-06-03 18:30:00',
-		allDay : false,
-		desc : 'S2 desc',
-		times : 'S2 times',
-		location : 'S2 location',
-		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
-		ticket : '#',
-		price: 'S2 price'
-	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
 		start  : '2012-06-10 11:30:00',
