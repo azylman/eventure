@@ -1,3 +1,12 @@
+var ron1 = "";
+var ron1id = "";
+
+var kayak = "";
+var kayakid = "";
+
+var ron2 = "";
+var ron2id = "";
+
 var recommendations = [
 	{
 		title  : 'Class Photo & March Thru the Arch',
@@ -392,6 +401,21 @@ $(document).ready(function() {
 						classes: 'complex'
 					}
 				});
+				
+				switch(event.anim) {
+					case 1:
+						ron1 = element;
+						ron1id = $(element).qtip('option', 'id');
+						break;
+					case 2:
+						kayak = element;
+						kayakid = $(element).qtip('option', 'id');
+						break;
+					case 3:
+						ron2 = element;
+						ron2id = $(element).qtip('option', 'id');
+						break;
+				}
 			}
 		}
     });
@@ -419,9 +443,3 @@ function createComplexText(event) {
 	text += "'>Buy tickets!</a> - <a href='#'>Add to calendar</a></div>";
 	return text;
 }
-
-var ron1 = "";
-
-var kayak = "";
-
-var ron2 = "";
