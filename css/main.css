@@ -25,3 +25,17 @@
 	border-color: #33CC7A;
 	background-color: #33CC7A;
 }
+
+.complex .ui-tooltip-title {
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.complex .ui-icon {
+	height: 16px;
+	padding-top: 2px;
+}
+
+.complex .ui-state-default {
+	right: 8px;
+}
