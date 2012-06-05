@@ -48,48 +48,50 @@ $(document).ready(function() {
 			}
 		],
 		eventAfterRender: function( event, element, view) {
-			/* Simple hover tooltip */
-			$(element).qtip({
-				content: {
-					title: event.title,
-					text: event.desc + "<br/><br/>Click the event for more info!"
-				},
-				position: {
-					my: 'left center',
-					at: 'right center',
-					target: $(element)
-				},
-				hide: {
-					event: 'unfocus click mouseleave'
-				}
-			});
-			
-			$(element).removeData('qtip');
-			
-			$(element).qtip({
-				content: {
-					title: {
-						text: event.title,
-						button: 'X'
+			if ($(element).hasClass("recommendation")) {
+				/* Simple hover tooltip */
+				$(element).qtip({
+					content: {
+						title: event.title,
+						text: event.desc + "<br/><br/>Click the event for more info!"
 					},
-					text: event.desc
-				},
-				position: {
-					my: 'center',
-					at: 'center',
-					target: $(document)
-				},
-				show: {
-					event: 'click',
-					modal: true
-				},
-				hide: {
-					event: 'unfocus'
-				},
-				style: {
-					classes: 'complex'
-				}
-			});
+					position: {
+						my: 'left center',
+						at: 'right center',
+						target: $(element)
+					},
+					hide: {
+						event: 'unfocus click mouseleave'
+					}
+				});
+				
+				$(element).removeData('qtip');
+				
+				$(element).qtip({
+					content: {
+						title: {
+							text: event.title,
+							button: 'X'
+						},
+						text: event.desc
+					},
+					position: {
+						my: 'center',
+						at: 'center',
+						target: $(document)
+					},
+					show: {
+						event: 'click',
+						modal: true
+					},
+					hide: {
+						event: 'unfocus'
+					},
+					style: {
+						classes: 'complex'
+					}
+				});
+			}
 		}
     });
 });
