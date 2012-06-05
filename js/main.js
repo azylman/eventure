@@ -25,6 +25,18 @@ var sponsoredRecommendations = [
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$13'
+	},
+	{
+		title  : 'Senior Class Gift Reception',
+		start  : '2012-06-08 18:00:00',
+		end  : '2012-06-08 20:00:00',
+		allDay : false,
+		desc : "At major universities across the country, the Senior Class Gift is a collective financial contribution from the members of the senior class to their alma mater in honor of graduation. Join over 1,000 of your classmates by making a gift of $20.12 today to the area of Northwestern that matches your interests! Senior Class Gift donors will be invited to the Recognition Event on Friday, June 8th to kick-off Senior Week, and be listed on the online honor roll, in the Daily's graduation issue, and on the Senior Class Gift plaque in Norris. To donate online, go to http://bit.ly/Jd2Z3e.",
+		times : '6:00 PM',
+		location : 'The Lakefill - invitation only',
+		image : 'http://images.businessweek.com/ss/09/08/0811_northwestern_school_tour/image/lakefill.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$13'
 	}
 ];
 
