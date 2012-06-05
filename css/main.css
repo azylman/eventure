@@ -13,3 +13,13 @@
 	opacity: .8;
 	z-index: 1 !important;
 }
+
+.recommendation {
+	border-color: #33CC7A;
+	background-color: #33CC7A;
+}
+
+.recommendation .fc-event-skin {
+	border-color: #33CC7A;
+	background-color: #33CC7A;
+}
