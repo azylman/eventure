@@ -411,6 +411,7 @@ $('#calendar').fullCalendar({
 						'click',
 						function() {
 							addEventToCalendar(ron1);
+							closeQtip(ron1id);
 					});
 					break;
 				case 2:
@@ -485,4 +486,9 @@ function colorEvent(element, color) {
 	var descendants = $(element).find(".fc-event-skin");
 	descendants.css('border-color', color);
 	descendants.css('background-color', color);
+}
+
+function closeQtip(id) {
+	$("#ui-tooltip-" + id).hide();
+	$("#qtip-overlay").hide();
 }
