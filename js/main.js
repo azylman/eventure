@@ -424,6 +424,7 @@ $('#calendar').fullCalendar({
 							addEventToCalendar(ron2);
 							addEventToCalendar(kayak);
 							removeEventFromCalendar(ron1);
+							closeQtip(kayakid);
 					});
 					break;
 				case 3:
