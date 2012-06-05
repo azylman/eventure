@@ -132,13 +132,13 @@ function createComplexText(event) {
 	text += "<img class='tooltip-img' src='";
 	text += event.image;
 	text += "' />";
-	text += "<div class='tooltip-metadata'><span class='tooltip-times'>";
+	text += "<div class='tooltip-metadata'><div class='tooltip-times'>";
 	text += event.times;
-	text += "</span> - <span class='tooltip-location'><a href='http://maps.google.com/maps?q=";
+	text += "</div><div class='tooltip-location'><a href='http://maps.google.com/maps?q=";
 	text += event.location;
 	text += "'>";
 	text += event.location;
-	text += "</a></span></div>";
+	text += "</a></div></div>";
 	text += "<div class='tooltip-description'>";
 	text += event.desc;
 	text += "</div>";
