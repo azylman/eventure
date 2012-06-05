@@ -410,12 +410,7 @@ $('#calendar').fullCalendar({
 					$("#ui-tooltip-" + ron1id + " .tooltip-add").live(
 						'click',
 						function() {
-							$(ron1).css('opacity', '1');
-							$(ron1).css('border-color', '#36C');
-							$(ron1).css('background-color', '#36C');
-							var descendants = $(ron1).find(".fc-event-skin");
-							descendants.css('border-color', '#36C');
-							descendants.css('background-color', '#36C');
+							addEventToCalendar(ron1);
 					});
 					break;
 				case 2:
@@ -465,4 +460,17 @@ function createComplexText(event) {
 	text += event.ticket;
 	text += "'>Buy tickets!</a> - <a href='#' class='tooltip-add'>Add to calendar</a></div>";
 	return text;
+}
+
+function addEventToCalendar(element) {
+	$(element).css('opacity', '1');
+	colorEvent(element, '#36C');
+}
+
+function colorEvent(element, color) {
+	$(element).css('border-color', color);
+	$(element).css('background-color', color);
+	var descendants = $(element).find(".fc-event-skin");
+	descendants.css('border-color', color);
+	descendants.css('background-color', color);
 }
