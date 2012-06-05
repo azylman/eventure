@@ -35,6 +35,10 @@
 	line-height: 22px;
 }
 
+.complex .ui-tooltip-content {
+	padding: 9px 9px;
+}
+
 .complex .ui-icon {
 	height: 16px;
 	padding-top: 2px;
