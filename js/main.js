@@ -133,8 +133,8 @@ var recommendations = [
 	},
 	{
 		title  : 'Volunteer at Ronald McDonald House',
-		start  : '2012-06-12 10:00:00',
-		end  : '2012-06-12 14:00:00',
+		start  : '2012-06-13 10:00:00',
+		end  : '2012-06-13 14:00:00',
 		allDay : false,
 		desc : "This year, we are proud to offer community service opportunities for the first time as part of Senior Week! We will be taking small groups of NU seniors to the Chicago Ronald McDonald House for Children's Memorial Hospital to cook lunch for the children and their families.",
 		times : '10:00 AM',
