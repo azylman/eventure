@@ -114,17 +114,17 @@ $(document).ready(function() {
 
 function createComplexText(event) {
 	var text = "";
-	text += "<img src='";
+	text += "<img class='tooltip-img' src='";
 	text += event.image;
 	text += "' />";
-	text += "<div class='metadata'><span class='times'>";
+	text += "<div class='tooltip-metadata'><span class='times'>";
 	text += event.times;
-	text += "</span> - <span class='location'><a href='http://maps.google.com/maps?q=";
+	text += "</span> - <span class='tooltip-location'><a href='http://maps.google.com/maps?q=";
 	text += event.location;
 	text += "'>";
 	text += event.location;
 	text += "</a></span></div>";
-	text += "<div class='description'>";
+	text += "<div class='tooltip-description'>";
 	text += event.desc;
 	text += "</div>";
 	text += "<a href='#'>Buy tickets!</a> - <a href='#'>Add to calendar</a>";
