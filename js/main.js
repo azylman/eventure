@@ -404,24 +404,32 @@ $('#calendar').fullCalendar({
 			
 			switch(event.anim) {
 				case 1:
+					console.log("found ron1");
 					ron1 = element;
 					ron1id = $(element).qtip('option', 'id');
 					$("#ui-tooltip-" + ron1id + " .tooltip-add").live(
 						'click',
 						function() {
-							alert('clicking ron1');
+							$(ron1).css('opacity', '1');
+							$(ron1).css('border-color', '#36C');
+							$(ron1).css('background-color', '#36C');
+							var descendants = $(ron1).find(".fc-event-skin");
+							descendants.css('border-color', '#36C');
+							descendants.css('background-color', '#36C');
 					});
 					break;
 				case 2:
+					console.log("found kayak");
 					kayak = element;
 					kayakid = $(element).qtip('option', 'id');
-					$("#ui-tooltip-" + kayakid + " .tooltip-add").live(
+					$("#ui-tooltip-" + kayakid + " .tooltip-dvadd").live(
 						'click',
 						function() {
 							alert('clicking kayak');
 					});
 					break;
 				case 3:
+					console.log("found ron2");
 					ron2 = element;
 					ron2id = $(element).qtip('option', 'id');
 					$("#ui-tooltip-" + ron2id + " .tooltip-add").live(
