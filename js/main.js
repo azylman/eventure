@@ -154,42 +154,6 @@ var recommendations = [
 		image : 'http://www.wendellaboats.com/images/homeRotation/3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$15.60'
-	},
-	{
-		title  : 'Student Honors Day Event',
-		start  : '2012-06-14 10:00:00',
-		end  : '2012-06-14 11:00:00',
-		allDay : false,
-		desc : "Select graduating Seniors receiving special recognition from their respective schools may attend this event hosted by the President. These students will be notified in advance by their schools regarding award status. Please contact your school if you have questions about the selection process.",
-		times : '10:00 AM',
-		location : "Cahn Auditorium",
-		image : 'http://upload.wikimedia.org/wikipedia/commons/a/aa/NU_Cahn_Auditorium.JPG',
-		ticket : '#',
-		price: 'invitation only'
-	},
-	{
-		title  : 'Naval ROTC Commissioning',
-		start  : '2012-06-14 14:30:00',
-		end  : '2012-06-14 15:30:00',
-		allDay : false,
-		desc : "",
-		times : '2:30 PM',
-		location : "Harris 107",
-		image : 'http://blog.usnavyseals.com/uploads/Naval-Reserve-Officers-Training-Corps.jpg',
-		ticket : '#',
-		price: 'open admission'
-	},
-	{
-		title  : 'Baccalaureate Service',
-		start  : '2012-06-14 16:00:00',
-		end  : '2012-06-14 17:00:00',
-		allDay : false,
-		desc : "Northwestern President Morty Schapiro and Chaplain Timothy Stevens invite graduating seniors and their families to the Interfaith University Baccalaureate Service. We gather as a University community in a spirit of reverence and joy to celebrate the achievements of students and give thanks for the years spent at Northwestern.",
-		times : '4:00 PM',
-		location : "Pick-Staiger Concert Hall",
-		image : 'http://exhibits.library.northwestern.edu/archives/exhibits/presidents/strotz-pick.jpg',
-		ticket : '#',
-		price: 'no ticket required'
 	}
 ];
 
