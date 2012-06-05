@@ -100,19 +100,6 @@ var recommendations = [
 		anim: -1
 	},
 	{
-		title  : 'Kayak the Chicago River',
-		start  : '2012-06-12 10:00:00',
-		end  : '2012-06-12 14:00:00',
-		allDay : false,
-		desc : "For the outdoorsmen among us - jump in your kayak and paddle down the Chicago River! You'll see the architecture and sites of the city from a whole new perspective. Get ready to have some fun splashing around in the sun on this guided tour. Buses will be provided to and from campus for this event.",
-		times : '10:00 AM',
-		location : 'Norris University Center, 1999 Campus Drive, Evanston, IL',
-		image : 'http://archive.mensjournal.com/wp-content/uploads/m193urba.jpg',
-		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$55',
-		anim: 2
-	},
-	{
 		title  : 'Volunteer at Ronald McDonald House',
 		start  : '2012-06-12 10:00:00',
 		end  : '2012-06-12 14:00:00',
@@ -176,6 +163,19 @@ var recommendations = [
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$15.60',
 		anim: -1
+	},
+	{
+		title  : 'Kayak the Chicago River',
+		start  : '2012-06-12 10:00:00',
+		end  : '2012-06-12 14:00:00',
+		allDay : false,
+		desc : "For the outdoorsmen among us - jump in your kayak and paddle down the Chicago River! You'll see the architecture and sites of the city from a whole new perspective. Get ready to have some fun splashing around in the sun on this guided tour. Buses will be provided to and from campus for this event.",
+		times : '10:00 AM',
+		location : 'Norris University Center, 1999 Campus Drive, Evanston, IL',
+		image : 'http://archive.mensjournal.com/wp-content/uploads/m193urba.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$55',
+		anim: 2
 	}
 ];
 
