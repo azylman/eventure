@@ -9,7 +9,8 @@ var recommendations = [
 		location : 'The Rock outside University Hall',
 		image : 'http://upload.wikimedia.org/wikipedia/commons/a/a8/Northwestern_Arch.jpg',
 		ticket : '#',
-		price: 'free'
+		price: 'free',
+		anim: -1
 	},
 	{
 		title  : 'Shedd Aquarium',
@@ -21,7 +22,8 @@ var recommendations = [
 		location : 'John G. Shedd Aquarium, 1200 South Lake Shore Drive, Chicago, IL',
 		image : 'http://static.ddmcdn.com/gif/family-vacations-shedd-aquarium.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$12'
+		price: '$12',
+		anim: -1
 	},
 	{
 		title  : 'Lincoln Park Zoo',
@@ -33,7 +35,8 @@ var recommendations = [
 		location : 'Lincoln Park Zoo, 2200 North Cannon Drive, Chicago, IL',
 		image : 'http://www.chicagonow.com/lists-that-actually-matter/files/2011/07/PICT0392_medium.jpg',
 		ticket : '#',
-		price: 'free'
+		price: 'free',
+		anim: -1
 	},
 	{
 		title  : 'Kingston Mines Blues Club',
@@ -45,7 +48,8 @@ var recommendations = [
 		location : '2548 N. Halsted Street, Chicago, IL',
 		image : 'http://www.chibarproject.com/Reviews/KingstonMines/KingstonMinesCoupleYC.jpg',
 		ticket : '#',
-		price: '$10'
+		price: '$10',
+		anim: -1
 	},
 	{
 		title  : 'Ask Big Questions Bonfire and BBQ',
@@ -57,7 +61,8 @@ var recommendations = [
 		location : 'The Lakefill fire pit',
 		image : 'http://images.businessweek.com/ss/09/08/0811_northwestern_school_tour/image/lakefill.jpg',
 		ticket : '#',
-		price: 'free'
+		price: 'free',
+		anim: -1
 	},
 	{
 		title  : 'Volunteer At City Farm',
@@ -69,7 +74,8 @@ var recommendations = [
 		location : '1204 N Clybourn Ave, Chicago, IL 60610',
 		image : 'http://www.resourcecenterchicago.org/images/viewfromroof2.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$5'
+		price: '$5',
+		anim: -1
 	},
 	{
 		title  : 'Private Show at ComedySportz',
@@ -81,7 +87,8 @@ var recommendations = [
 		location : '929 W. Belmont Avenue, Chicago, IL',
 		image : 'http://img4.findthebest.com/sites/default/files/358/media/images/Comedy_Sportz_Theatre.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$15'
+		price: '$15',
+		anim: -1
 	},
 	{
 		title  : 'Kayak the Chicago River',
@@ -93,7 +100,8 @@ var recommendations = [
 		location : 'Norris University Center, 1999 Campus Drive, Evanston, IL',
 		image : 'http://archive.mensjournal.com/wp-content/uploads/m193urba.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$55'
+		price: '$55',
+		anim: 2
 	},
 	{
 		title  : 'Volunteer at Ronald McDonald House',
@@ -105,7 +113,8 @@ var recommendations = [
 		location : 'Ronald McDonald House, 622 West Deming Place, Chicago, IL',
 		image : 'http://americajanespeaks.net/wp-content/uploads/2011/06/Ronald-McDonald-House.jpg',
 		ticket : '#',
-		price: 'free'
+		price: 'free',
+		anim: 1
 	},
 	{
 		title  : 'Chicago Pizza Tour',
@@ -117,7 +126,8 @@ var recommendations = [
 		location : "Pizano's Pizza & Pasta, 61 East Madison Street, Chicago, IL",
 		image : 'http://www.chisoxcollector.com/images/kim/John.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$28.50'
+		price: '$28.50',
+		anim: -1
 	},
 	{
 		title  : 'Museum of Contemporary Art',
@@ -129,7 +139,8 @@ var recommendations = [
 		location : "220 E. Chicago Avenue, Chicago, IL",
 		image : 'http://byteful.com/media/d/6429-4/Steps+up+to+Chicago+Museum+of+Contemp+Art.jpg',
 		ticket : '#',
-		price: 'free'
+		price: 'free',
+		anim: -1
 	},
 	{
 		title  : 'Volunteer at Ronald McDonald House',
@@ -141,7 +152,8 @@ var recommendations = [
 		location : 'Ronald McDonald House, 622 West Deming Place, Chicago, IL',
 		image : 'http://americajanespeaks.net/wp-content/uploads/2011/06/Ronald-McDonald-House.jpg',
 		ticket : '#',
-		price: 'free'
+		price: 'free',
+		anim: 3
 	},
 	{
 		title  : 'Chicago Archicture Boat Tour',
@@ -153,7 +165,8 @@ var recommendations = [
 		location : "400 N. Michigan Avenue, Chicago, IL",
 		image : 'http://www.wendellaboats.com/images/homeRotation/3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$15.60'
+		price: '$15.60',
+		anim: -1
 	}
 ];
 
@@ -168,7 +181,8 @@ var sponsoredRecommendations = [
 		location : 'The Lakefill - invitation only',
 		image : 'http://images.businessweek.com/ss/09/08/0811_northwestern_school_tour/image/lakefill.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$13'
+		price: '$13',
+		anim: -1
 	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
@@ -180,7 +194,8 @@ var sponsoredRecommendations = [
 		location : 'Goose Island Brewing Co., 1800 North Clybourn Avenue, Chicago, IL',
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$13'
+		price: '$13',
+		anim: -1
 	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
@@ -192,7 +207,8 @@ var sponsoredRecommendations = [
 		location : 'Goose Island Brewing Co., 1800 North Clybourn Avenue, Chicago, IL',
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$13'
+		price: '$13',
+		anim: -1
 	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
@@ -204,7 +220,8 @@ var sponsoredRecommendations = [
 		location : 'Goose Island Brewing Co., 1800 North Clybourn Avenue, Chicago, IL',
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$13'
+		price: '$13',
+		anim: -1
 	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
@@ -216,7 +233,8 @@ var sponsoredRecommendations = [
 		location : 'Goose Island Brewing Co., 1800 North Clybourn Avenue, Chicago, IL',
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$13'
+		price: '$13',
+		anim: -1
 	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
@@ -228,7 +246,8 @@ var sponsoredRecommendations = [
 		location : 'Goose Island Brewing Co., 1800 North Clybourn Avenue, Chicago, IL',
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$13'
+		price: '$13',
+		anim: -1
 	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
@@ -240,7 +259,8 @@ var sponsoredRecommendations = [
 		location : 'Goose Island Brewing Co., 1800 North Clybourn Avenue, Chicago, IL',
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$13'
+		price: '$13',
+		anim: -1
 	},
 	{
 		title  : 'Last Lecture',
@@ -252,7 +272,8 @@ var sponsoredRecommendations = [
 		location : '1059 W. Addison Street, Chicago, IL',
 		image : 'http://www.chibarproject.com/Reviews/CubbyBear/CubbyBearHotAM.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$10'
+		price: '$10',
+		anim: -1
 	},
 	{
 		title  : 'Senior Formal',
@@ -264,7 +285,8 @@ var sponsoredRecommendations = [
 		location : 'Navy Pier, 700 East Grand Avenue, Chicago, IL',
 		image : 'http://chicagoweddingvenues.com/main/images/anita_dee/anita_dee_01.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$29'
+		price: '$29',
+		anim: -1
 	},
 	{
 		title  : 'Senior Night at Wrigley',
@@ -276,7 +298,8 @@ var sponsoredRecommendations = [
 		location : 'Wrigley Field, 1060 West Addison Street, Chicago, IL',
 		image : 'http://bloguin.com/theoutsidecorner/images/stories/wrigley.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
-		price: '$19'
+		price: '$19',
+		anim: -1
 	},
 	{
 		title  : "President's Reception",
@@ -288,7 +311,8 @@ var sponsoredRecommendations = [
 		location : 'Norris East Lawn',
 		image : 'https://encrypted-tbn2.google.com/images?q=tbn:ANd9GcQnKvf9iBqQo1a4H3MUtjv-7jIRurpwonxifDmsW95fYzmYxmxSXQ',
 		ticket : '#',
-		price: 'no ticket required'
+		price: 'no ticket required',
+		anim: -1
 	},
 	{
 		title  : "154th Annual Commencement",
@@ -300,7 +324,8 @@ var sponsoredRecommendations = [
 		location : 'Ryan Field',
 		image : 'http://i.ytimg.com/vi/kTHRX1eWf8Y/0.jpg',
 		ticket : '#',
-		price: 'admission by ticket only'
+		price: 'admission by ticket only',
+		anim: -1
 	}
 ];
 
