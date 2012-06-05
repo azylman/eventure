@@ -45,6 +45,17 @@ var sponsoredRecommendations = [
 		location : 'S2 location',
 		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
 		ticket : '#'
+	},
+	{
+		title  : 'Goose Island Private Tour and Tasting',
+		start  : '2012-06-10 11:30:00',
+		end  : '2012-06-10 14:00:00',
+		allDay : false,
+		desc : "Perhaps the most popular event from previous Senior Weeks, we are excited to once again offer private tours of Chicago's own Goose Island Brewery. Get your ticket ASAP for a 90 minute tour through the famous Chicago brewery and sample some of the finest ales in all the land. Our event is being held as Goose Island's Clybourn location, which is just off the Red Line, so there will be no buses for this event. This event is 21+.",
+		times : '11:30AM, 2PM, and 4PM',
+		location : 'Goose Island Brewing Co., 1800 North Clybourn Avenue, Chicago, IL',
+		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34'
 	}
 ];
 
