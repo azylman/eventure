@@ -26,6 +26,10 @@
 	background-color: #33CC7A;
 }
 
+.complex {
+	max-width: 380px;
+}
+
 .complex .ui-tooltip-title {
 	font-size: 22px;
 	line-height: 22px;
