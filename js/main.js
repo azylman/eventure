@@ -130,6 +130,42 @@ var recommendations = [
 		image : 'http://byteful.com/media/d/6429-4/Steps+up+to+Chicago+Museum+of+Contemp+Art.jpg',
 		ticket : '#',
 		price: 'free'
+	},
+	{
+		title  : 'Volunteer at Ronald McDonald House',
+		start  : '2012-06-12 10:00:00',
+		end  : '2012-06-12 14:00:00',
+		allDay : false,
+		desc : "This year, we are proud to offer community service opportunities for the first time as part of Senior Week! We will be taking small groups of NU seniors to the Chicago Ronald McDonald House for Children's Memorial Hospital to cook lunch for the children and their families.",
+		times : '10:00 AM',
+		location : 'Ronald McDonald House, 622 West Deming Place, Chicago, IL',
+		image : 'http://americajanespeaks.net/wp-content/uploads/2011/06/Ronald-McDonald-House.jpg',
+		ticket : '#',
+		price: 'free'
+	},
+	{
+		title  : 'Chicago Archicture Boat Tour',
+		start  : '2012-06-13 12:00:00',
+		end  : '2012-06-13 13:30:00',
+		allDay : false,
+		desc : "This is the quintessential Chicago experience. This 90-minute guided river cruise provides an overview of the historic and modern architectural styles of Chicago. The June weather will be perfect and the boat's onboard beer bar certainly doest hurt! Transportation to this event is up to you, but we recommend taking the El downtown and grabbing lunch before we board! Spots are limited.",
+		times : '12:00 PM',
+		location : "400 N. Michigan Avenue, Chicago, IL",
+		image : 'http://www.wendellaboats.com/images/homeRotation/3.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$15.60'
+	},
+	{
+		title  : 'Student Honors Day Event',
+		start  : '2012-06-14 10:00:00',
+		end  : '2012-06-14 11:00:00',
+		allDay : false,
+		desc : "Select graduating Seniors receiving special recognition from their respective schools may attend this event hosted by the President. These students will be notified in advance by their schools regarding award status. Please contact your school if you have questions about the selection process.",
+		times : '10:00 AM',
+		location : "Cahn Auditorium",
+		image : 'http://upload.wikimedia.org/wikipedia/commons/a/aa/NU_Cahn_Auditorium.JPG',
+		ticket : '#',
+		price: 'invitation only'
 	}
 ];
 
@@ -241,6 +277,30 @@ var sponsoredRecommendations = [
 		image : 'http://chicagoweddingvenues.com/main/images/anita_dee/anita_dee_01.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$29'
+	},
+	{
+		title  : 'Senior Night at Wrigley',
+		start  : '2012-06-13 19:00:00',
+		end  : '2012-06-13 23:00:00',
+		allDay : false,
+		desc : "Go, Cubs! Root for the home team as they take on the Detroit Tigers. One of the most popular events in years past, don't wait to buy your ticket. Transportation is via CTA. Enjoy a warm summer night with beer, brats, baseball and good friends.",
+		times : '7:00 PM',
+		location : 'Wrigley Field, 1060 West Addison Street, Chicago, IL',
+		image : 'http://bloguin.com/theoutsidecorner/images/stories/wrigley.jpg',
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$19'
+	},
+	{
+		title  : "President's Reception",
+		start  : '2012-06-14 12:00:00',
+		end  : '2012-06-14 13:00:00',
+		allDay : false,
+		desc : "Graduates, their families, and guests are invited to attend this informal reception. President Morty Schapiro will be present to meet those attending.",
+		times : '12:00 PM',
+		location : 'Norris East Lawn',
+		image : 'https://encrypted-tbn2.google.com/images?q=tbn:ANd9GcQnKvf9iBqQo1a4H3MUtjv-7jIRurpwonxifDmsW95fYzmYxmxSXQ',
+		ticket : '#',
+		price: 'no ticket required'
 	}
 ];
 
