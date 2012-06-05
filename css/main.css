@@ -14,11 +14,13 @@
 	z-index: 1 !important;
 }
 
+/* Style outer recommendation div */
 .recommendation {
 	border-color: #33CC7A;
 	background-color: #33CC7A;
 }
 
+/* Style any children of the outer div */
 .recommendation .fc-event-skin {
 	border-color: #33CC7A;
 	background-color: #33CC7A;
