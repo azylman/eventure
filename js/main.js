@@ -6,7 +6,8 @@ var recommendations = [
 		allDay : false, // will make the time show
 		desc : 'R1 desc',
 		times : 'R1 times',
-		location : 'R1 location'
+		location : 'R1 location',
+		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif'
 	},
 	{
 		title  : 'Recommendation 2',
@@ -15,7 +16,8 @@ var recommendations = [
 		allDay : false, // will make the time show
 		desc : 'R2 desc',
 		times : 'R2 times',
-		location : 'R2 location'
+		location : 'R2 location',
+		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif'
 	}
 ];
 
@@ -27,7 +29,8 @@ var sponsoredRecommendations = [
 		allDay : false, // will make the time show
 		desc : 'S1 desc',
 		times : 'S1 times',
-		location : 'S1 location'
+		location : 'S1 location',
+		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif'
 	},
 	{
 		title  : 'Sponsored 2',
@@ -36,7 +39,8 @@ var sponsoredRecommendations = [
 		allDay : false, // will make the time show
 		desc : 'S2 desc',
 		times : 'S2 times',
-		location : 'S2 location'
+		location : 'S2 location',
+		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif'
 	}
 ];
 
@@ -110,6 +114,9 @@ $(document).ready(function() {
 
 function createComplexText(event) {
 	var text = "";
+	text += "<img src='";
+	text += event.image;
+	text += "' />";
 	text += "<div class='metadata'><span class='times'>";
 	text += event.times;
 	text += "</span> - <span class='location'><a href='http://maps.google.com/maps?q=";
@@ -120,5 +127,6 @@ function createComplexText(event) {
 	text += "<div class='description'>";
 	text += event.desc;
 	text += "</div>";
+	text += "<a href='#'>Buy tickets!</a> - <a href='#'>Add to calendar</a>";
 	return text;
 }
