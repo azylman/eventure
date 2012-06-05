@@ -48,16 +48,42 @@ $(document).ready(function() {
 			}
 		],
 		eventAfterRender: function( event, element, view) {
-			console.log("test");
+			/* Simple hover tooltip */
 			$(element).qtip({
 				content: {
-					text: event.desc,
-					title: event.title
+					title: event.title,
+					text: event.desc + "<br/><br/>Click the event for more info!"
 				},
 				position: {
 					my: 'left center',
 					at: 'right center',
 					target: $(element)
+				},
+				hide: {
+					event: 'unfocus click mouseleave'
+				}
+			});
+			
+			$(element).removeData('qtip');
+			
+			$(element).qtip({
+				content: {
+					title: {
+						text: event.title,
+						button: 'X'
+					},
+					text: "Complex: " + event.desc
+				},
+				position: {
+					my: 'left center',
+					at: 'right center',
+					target: $(element)
+				},
+				show: {
+					event: 'click'
+				},
+				hide: {
+					event: 'unfocus'
 				}
 			});
 		}
