@@ -112,9 +112,11 @@ function createComplexText(event) {
 	var text = "";
 	text += "<div class='metadata'><span class='times'>";
 	text += event.times;
-	text += "</span> - <span class='location'>";
+	text += "</span> - <span class='location'><a href='http://maps.google.com/maps?q=";
 	text += event.location;
-	text += "</span></div>";
+	text += "'>";
+	text += event.location;
+	text += "</a></span></div>";
 	text += "<div class='description'>";
 	text += event.desc;
 	text += "</div>";
