@@ -72,18 +72,22 @@ $(document).ready(function() {
 						text: event.title,
 						button: 'X'
 					},
-					text: "Complex: " + event.desc
+					text: event.desc
 				},
 				position: {
-					my: 'left center',
-					at: 'right center',
-					target: $(element)
+					my: 'center',
+					at: 'center',
+					target: $(document)
 				},
 				show: {
-					event: 'click'
+					event: 'click',
+					modal: true
 				},
 				hide: {
 					event: 'unfocus'
+				},
+				style: {
+					classes: 'complex'
 				}
 			});
 		}
