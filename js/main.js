@@ -429,11 +429,6 @@ $('#calendar').fullCalendar({
 					console.log("found ron2");
 					ron2 = element;
 					ron2id = $(element).qtip('option', 'id');
-					$("#ui-tooltip-" + ron2id + " .tooltip-add").live(
-						'click',
-						function() {
-							alert('clicking ron2');
-					});
 					break;
 			}
 		}
@@ -471,6 +466,17 @@ function addEventToCalendar(element) {
 
 function removeEventFromCalendar(element) {
 	colorEvent(element, '#33CC7A');
+	var opacity = "";
+	if ($(element).hasClass('sponsored')) {
+		opacity = '.8';
+	} else {
+		opacity = '.5';
+	}
+	$(element).css('opacity', opacity);
+	$(element).hover(
+		function() {$(element).css('opacity', '1')},
+		function() {$(element).css('opacity', opacity)
+	});
 }
 
 function colorEvent(element, color) {
