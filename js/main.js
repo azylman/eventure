@@ -8,7 +8,8 @@ var recommendations = [
 		times : 'R1 times',
 		location : 'R1 location',
 		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
-		ticket : '#'
+		ticket : '#',
+		price: 'R1 price'
 	},
 	{
 		title  : 'Recommendation 2',
@@ -19,7 +20,8 @@ var recommendations = [
 		times : 'R2 times',
 		location : 'R2 location',
 		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
-		ticket : '#'
+		ticket : '#',
+		price: 'R2 price'
 	}
 ];
 
@@ -33,7 +35,8 @@ var sponsoredRecommendations = [
 		times : 'S1 times',
 		location : 'S1 location',
 		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
-		ticket : '#'
+		ticket : '#',
+		price: 'S1 price'
 	},
 	{
 		title  : 'Sponsored 2',
@@ -44,7 +47,8 @@ var sponsoredRecommendations = [
 		times : 'S2 times',
 		location : 'S2 location',
 		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
-		ticket : '#'
+		ticket : '#',
+		price: 'S2 price'
 	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
@@ -55,7 +59,8 @@ var sponsoredRecommendations = [
 		times : '11:30AM, 2PM, and 4PM',
 		location : 'Goose Island Brewing Co., 1800 North Clybourn Avenue, Chicago, IL',
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
-		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34'
+		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
+		price: '$13'
 	}
 ];
 
@@ -138,7 +143,9 @@ function createComplexText(event) {
 	text += event.location;
 	text += "'>";
 	text += event.location;
-	text += "</a></div></div>";
+	text += "</a></div><div class='tooltip-price'>";
+	text += event.price;
+	text += "</div></div>";
 	text += "<div class='tooltip-description'>";
 	text += event.desc;
 	text += "</div>";
