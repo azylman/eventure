@@ -7,7 +7,8 @@ var recommendations = [
 		desc : 'R1 desc',
 		times : 'R1 times',
 		location : 'R1 location',
-		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif'
+		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
+		ticket : '#'
 	},
 	{
 		title  : 'Recommendation 2',
@@ -17,7 +18,8 @@ var recommendations = [
 		desc : 'R2 desc',
 		times : 'R2 times',
 		location : 'R2 location',
-		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif'
+		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
+		ticket : '#'
 	}
 ];
 
@@ -30,7 +32,8 @@ var sponsoredRecommendations = [
 		desc : 'S1 desc',
 		times : 'S1 times',
 		location : 'S1 location',
-		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif'
+		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
+		ticket : '#'
 	},
 	{
 		title  : 'Sponsored 2',
@@ -40,7 +43,8 @@ var sponsoredRecommendations = [
 		desc : 'S2 desc',
 		times : 'S2 times',
 		location : 'S2 location',
-		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif'
+		image : 'http://www.graphicsbydezign.com/images/clip-art/jesus-clip-art.gif',
+		ticket : '#'
 	}
 ];
 
@@ -127,6 +131,8 @@ function createComplexText(event) {
 	text += "<div class='tooltip-description'>";
 	text += event.desc;
 	text += "</div>";
-	text += "<div class='tooltip-links'><a href='#'>Buy tickets!</a> - <a href='#'>Add to calendar</a></div>";
+	text += "<div class='tooltip-links'><a href='";
+	text += event.ticket;
+	text += "'>Buy tickets!</a> - <a href='#'>Add to calendar</a></div>";
 	return text;
 }
