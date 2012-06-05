@@ -166,6 +166,30 @@ var recommendations = [
 		image : 'http://upload.wikimedia.org/wikipedia/commons/a/aa/NU_Cahn_Auditorium.JPG',
 		ticket : '#',
 		price: 'invitation only'
+	},
+	{
+		title  : 'Naval ROTC Commissioning',
+		start  : '2012-06-14 14:30:00',
+		end  : '2012-06-14 15:30:00',
+		allDay : false,
+		desc : "",
+		times : '2:30 PM',
+		location : "Harris 107",
+		image : 'http://blog.usnavyseals.com/uploads/Naval-Reserve-Officers-Training-Corps.jpg',
+		ticket : '#',
+		price: 'open admission'
+	},
+	{
+		title  : 'Baccalaureate Service',
+		start  : '2012-06-14 16:00:00',
+		end  : '2012-06-14 17:00:00',
+		allDay : false,
+		desc : "Northwestern President Morty Schapiro and Chaplain Timothy Stevens invite graduating seniors and their families to the Interfaith University Baccalaureate Service. We gather as a University community in a spirit of reverence and joy to celebrate the achievements of students and give thanks for the years spent at Northwestern.",
+		times : '4:00 PM',
+		location : "Pick-Staiger Concert Hall",
+		image : 'http://exhibits.library.northwestern.edu/archives/exhibits/presidents/strotz-pick.jpg',
+		ticket : '#',
+		price: 'no ticket required'
 	}
 ];
 
@@ -301,6 +325,18 @@ var sponsoredRecommendations = [
 		image : 'https://encrypted-tbn2.google.com/images?q=tbn:ANd9GcQnKvf9iBqQo1a4H3MUtjv-7jIRurpwonxifDmsW95fYzmYxmxSXQ',
 		ticket : '#',
 		price: 'no ticket required'
+	},
+	{
+		title  : "154th Annual Commencement",
+		start  : '2012-06-15 10:30:00',
+		end  : '2012-06-15 13:00:00',
+		allDay : false,
+		desc : "The ceremony begins with the procession of graduates, the faculty, and the President's party. The two-hour program includes the awarding of honorary degrees, a speaker, the President's message to graduates, and the conferring of degrees by school. Gates open at 8:30AM.",
+		times : '10:30 AM',
+		location : 'Ryan Field',
+		image : 'http://i.ytimg.com/vi/kTHRX1eWf8Y/0.jpg',
+		ticket : '#',
+		price: 'admission by ticket only'
 	}
 ];
 
