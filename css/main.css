@@ -46,6 +46,17 @@
 
 .complex .tooltip-metadata {
 	padding-top: 9px;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 16px;
+}
+
+.complex .tooltip-description {
+	padding-top: 9px;
+	padding-bottom: 9px;
+	font-size: 18px;
+}
+
+.complex .tooltip-links {
+	padding-top: 18px;
+	font-size: 14px;
 }

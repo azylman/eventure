@@ -127,6 +127,6 @@ function createComplexText(event) {
 	text += "<div class='tooltip-description'>";
 	text += event.desc;
 	text += "</div>";
-	text += "<a href='#'>Buy tickets!</a> - <a href='#'>Add to calendar</a>";
+	text += "<div class='tooltip-links'><a href='#'>Buy tickets!</a> - <a href='#'>Add to calendar</a></div>";
 	return text;
 }
