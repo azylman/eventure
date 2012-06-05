@@ -48,6 +48,12 @@
 	right: 8px;
 }
 
+.complex .tooltip-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .complex .tooltip-metadata {
 	padding-top: 9px;
 	font-size: 14px;
