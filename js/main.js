@@ -3,7 +3,7 @@ var recommendations = [
 		title  : 'Recommendation 1',
 		start  : '2012-06-03 12:30:00',
 		end  : '2012-06-03 15:30:00',
-		allDay : false, // will make the time show
+		allDay : false,
 		desc : 'R1 desc',
 		times : 'R1 times',
 		location : 'R1 location',
@@ -13,7 +13,7 @@ var recommendations = [
 		title  : 'Recommendation 2',
 		start  : '2012-06-03 15:30:00',
 		end  : '2012-06-03 16:30:00',
-		allDay : false, // will make the time show
+		allDay : false,
 		desc : 'R2 desc',
 		times : 'R2 times',
 		location : 'R2 location',
@@ -26,7 +26,7 @@ var sponsoredRecommendations = [
 		title  : 'Sponsored Recommendation 1',
 		start  : '2012-06-03 10:30:00',
 		end  : '2012-06-03 13:30:00',
-		allDay : false, // will make the time show
+		allDay : false,
 		desc : 'S1 desc',
 		times : 'S1 times',
 		location : 'S1 location',
@@ -36,7 +36,7 @@ var sponsoredRecommendations = [
 		title  : 'Sponsored 2',
 		start  : '2012-06-03 16:30:00',
 		end  : '2012-06-03 18:30:00',
-		allDay : false, // will make the time show
+		allDay : false,
 		desc : 'S2 desc',
 		times : 'S2 times',
 		location : 'S2 location',
