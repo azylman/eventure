@@ -449,6 +449,7 @@ $('#calendar').fullCalendar({
 					console.log("found goose");
 					goose = element;
 					gooseid = $(element).qtip('option', 'id');
+					$(element).hide();
 					break;
 			}
 		}
