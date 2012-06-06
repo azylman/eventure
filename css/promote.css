@@ -60,3 +60,22 @@
 	font-style: italic;
 	font-weight: bold;
 }
+
+#stats {
+	height: 215px;
+	padding-top: 85px;
+	font-size: 18px;
+	line-height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+.stat {
+	font-size: 30px;
+	color: #36c;
+}
+
+.row + .row {
+	margin-top: 30px;
+}
