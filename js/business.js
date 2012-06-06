@@ -400,8 +400,6 @@ function createComplexText(event) {
 	text += "<div class='tooltip-description'>";
 	text += event.desc;
 	text += "</div>";
-	text += "<div class='tooltip-links'><a href='";
-	text += event.ticket;
-	text += "'>Buy tickets!</a> - <a href='#' class='tooltip-add'>Add to calendar</a></div>";
+	text += "<div class='tooltip-links'><a class='tooltip-promote' href='#'>Promote event!</a></div>";
 	return text;
 }
