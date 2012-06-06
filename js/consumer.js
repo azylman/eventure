@@ -444,12 +444,22 @@ $('#calendar').fullCalendar({
 					console.log("found city");
 					city = element;
 					cityid = $(element).qtip('option', 'id');
+					$(element).css('width', '112px');
+					$("#ui-tooltip-" + cityid + " .tooltip-not").live(
+						'click',
+						function() {
+							$(city).hide();
+							$(goose).show();
+							closeQtip(cityid);
+					});
 					break;
 				case 5:
 					console.log("found goose");
 					goose = element;
 					gooseid = $(element).qtip('option', 'id');
 					$(element).hide();
+					$(element).css('left', '188px');
+					$(element).css('width', '112px');
 					break;
 			}
 		}
