@@ -1,3 +1,16 @@
+#prom-info {
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+#promote-btn {
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #analytics {
 	display: none;
 }
