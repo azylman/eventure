@@ -34,3 +34,11 @@ $("#clicks").parent().children('h2').qtip({
 		at: 'top center',
 	}
 });
+
+$("#ctr").parent().children('h2').qtip({
+	content: 'Click-through rate: of the people that view your event, how many click',
+	position: {
+		my: 'bottom center',
+		at: 'top center',
+	}
+});
