@@ -192,7 +192,7 @@ var recommendations = [
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$13',
-		anim: -1
+		anim: 1
 	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
