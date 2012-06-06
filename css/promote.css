@@ -1,3 +1,7 @@
+#promoting {
+	font-size: 18px;
+}
+
 #graphs {
 	margin-top: 30px;
 }
@@ -16,4 +20,10 @@
 
 #graphs h2 {
 	text-align: center;
+}
+
+#desc {
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 24px;
 }
