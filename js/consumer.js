@@ -112,7 +112,7 @@ var recommendations = [
 		price: 'free',
 		anim: 1
 	},
-	{
+	/*{
 		title  : 'Chicago Pizza Tour',
 		start  : '2012-06-12 11:00:00',
 		end  : '2012-06-12 14:00:00',
@@ -137,7 +137,7 @@ var recommendations = [
 		ticket : '#',
 		price: 'free',
 		anim: -1
-	},
+	},*/
 	{
 		title  : 'Volunteer at Ronald McDonald House',
 		start  : '2012-06-13 10:00:00',
@@ -271,7 +271,7 @@ var sponsoredRecommendations = [
 		price: '$13',
 		anim: -1
 	},
-	{
+	/*{
 		title  : 'Last Lecture',
 		start  : '2012-06-11 20:00:00',
 		end  : '2012-06-11 21:00:00',
@@ -296,7 +296,7 @@ var sponsoredRecommendations = [
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$29',
 		anim: -1
-	},
+	},*/
 	{
 		title  : 'Senior Night at Wrigley',
 		start  : '2012-06-13 19:00:00',
@@ -309,7 +309,7 @@ var sponsoredRecommendations = [
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$19',
 		anim: -1
-	},
+	/*},
 	{
 		title  : "President's Reception",
 		start  : '2012-06-14 12:00:00',
@@ -334,7 +334,7 @@ var sponsoredRecommendations = [
 		image : 'http://i.ytimg.com/vi/kTHRX1eWf8Y/0.jpg',
 		ticket : '#',
 		price: 'admission by ticket only',
-		anim: -1
+		anim: -1*/
 	}
 ];
 
