@@ -101,7 +101,7 @@ var recommendations = [
 		image : 'http://americajanespeaks.net/wp-content/uploads/2011/06/Ronald-McDonald-House.jpg',
 		ticket : '#',
 		price: 'free',
-		anim: 1
+		anim: -1
 	},
 	{
 		title  : 'Chicago Pizza Tour',
@@ -140,7 +140,7 @@ var recommendations = [
 		image : 'http://americajanespeaks.net/wp-content/uploads/2011/06/Ronald-McDonald-House.jpg',
 		ticket : '#',
 		price: 'free',
-		anim: 3
+		anim: -1
 	},
 	{
 		title  : 'Chicago Archicture Boat Tour',
@@ -166,7 +166,7 @@ var recommendations = [
 		image : 'http://archive.mensjournal.com/wp-content/uploads/m193urba.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$55',
-		anim: 2
+		anim: -1
 	},
 	{
 		title  : 'Senior Class Gift Reception',
