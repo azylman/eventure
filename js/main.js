@@ -421,10 +421,12 @@ $('#calendar').fullCalendar({
 					$("#ui-tooltip-" + kayakid + " .tooltip-add").live(
 						'click',
 						function() {
-							addEventToCalendar(ron2);
-							addEventToCalendar(kayak);
-							removeEventFromCalendar(ron1);
-							closeQtip(kayakid);
+							if (confirm("The kayaking event conflicts with your volunteer trip. Would you like to volunteer on Wednesday instead?")) {
+								addEventToCalendar(ron2);
+								addEventToCalendar(kayak);
+								removeEventFromCalendar(ron1);
+								closeQtip(kayakid);
+							}
 					});
 					break;
 				case 3:
