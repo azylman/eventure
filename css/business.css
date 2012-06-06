@@ -1,0 +1,45 @@
+.complex {
+	max-width: 380px;
+}
+
+.complex .ui-tooltip-title {
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.complex .ui-tooltip-content {
+	padding: 9px 9px;
+}
+
+.complex .ui-icon {
+	height: 16px;
+	padding-top: 2px;
+}
+
+.complex .ui-state-default {
+	right: 8px;
+}
+
+.complex .tooltip-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.complex .tooltip-metadata {
+	padding-top: 9px;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.complex .tooltip-description {
+	padding-top: 9px;
+	padding-bottom: 9px;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.complex .tooltip-links {
+	padding-top: 18px;
+	font-size: 14px;
+}

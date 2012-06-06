@@ -334,88 +334,51 @@ $('#calendar').fullCalendar({
 	eventSources: [
 		{
 			events: recommendations,
-			className: "recommendation"
 		}
 	],
 	eventAfterRender: function( event, element, view) {
-		if ($(element).hasClass("recommendation")) {
-			/* Simple hover tooltip */
-			$(element).qtip({
-				content: {
-					title: event.title,
-					text: event.desc + "<br/><br/>Click the event for more info!"
-				},
-				position: {
-					my: 'left center',
-					at: 'right center',
-					target: $(element)
-				},
-				hide: {
-					event: 'unfocus click mouseleave'
-				}
-			});
-			
-			$(element).removeData('qtip');
-			
-			$(element).qtip({
-				content: {
-					title: {
-						text: event.title,
-						button: 'X'
-					},
-					text: createComplexText(event)
-				},
-				position: {
-					my: 'center',
-					at: 'center',
-					target: $(document)
-				},
-				show: {
-					event: 'click',
-					modal: true
-				},
-				hide: {
-					event: 'unfocus'
-				},
-				style: {
-					classes: 'complex'
-				}
-			});
-			
-			switch(event.anim) {
-				case 1:
-					console.log("found ron1");
-					ron1 = element;
-					ron1id = $(element).qtip('option', 'id');
-					$("#ui-tooltip-" + ron1id + " .tooltip-add").live(
-						'click',
-						function() {
-							addEventToCalendar(ron1);
-							closeQtip(ron1id);
-					});
-					break;
-				case 2:
-					console.log("found kayak");
-					kayak = element;
-					kayakid = $(element).qtip('option', 'id');
-					$("#ui-tooltip-" + kayakid + " .tooltip-add").live(
-						'click',
-						function() {
-							if (confirm("The kayaking event conflicts with your volunteer trip. Would you like to volunteer on Wednesday instead?")) {
-								addEventToCalendar(ron2);
-								addEventToCalendar(kayak);
-								removeEventFromCalendar(ron1);
-								closeQtip(kayakid);
-							}
-					});
-					break;
-				case 3:
-					console.log("found ron2");
-					ron2 = element;
-					ron2id = $(element).qtip('option', 'id');
-					break;
+		/* Simple hover tooltip */
+		$(element).qtip({
+			content: {
+				title: event.title,
+				text: event.desc + "<br/><br/>Click the event for more info!"
+			},
+			position: {
+				my: 'left center',
+				at: 'right center',
+				target: $(element)
+			},
+			hide: {
+				event: 'unfocus click mouseleave'
 			}
-		}
+		});
+		
+		$(element).removeData('qtip');
+		
+		$(element).qtip({
+			content: {
+				title: {
+					text: event.title,
+					button: 'X'
+				},
+				text: createComplexText(event)
+			},
+			position: {
+				my: 'center',
+				at: 'center',
+				target: $(document)
+			},
+			show: {
+				event: 'click',
+				modal: true
+			},
+			hide: {
+				event: 'unfocus'
+			},
+			style: {
+				classes: 'complex'
+			}
+		});
 	}
 });
 });
