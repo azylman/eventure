@@ -440,6 +440,16 @@ $('#calendar').fullCalendar({
 					ron2 = element;
 					ron2id = $(element).qtip('option', 'id');
 					break;
+				case 4:
+					console.log("found city");
+					city = element;
+					cityid = $(element).qtip('option', 'id');
+					break;
+				case 5:
+					console.log("found goose");
+					goose = element;
+					gooseid = $(element).qtip('option', 'id');
+					break;
 			}
 		}
 	}
