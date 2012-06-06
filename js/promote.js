@@ -1,21 +1,23 @@
 $(document).ready(function() {
-	$(function () {
-	
-		var clicks = [];
-		var views = [];
-		var ctr = [];
-		for (var i = 0; i < 28; i += 1) {
-			var clickNum = Math.pow(Math.max(Math.floor(((Math.random())*10)+i), 0), 2.6);
-			var viewNum = Math.pow(Math.max(Math.floor(((Math.random())*40)+i), 0), 2.5);
-			var ctrNum = Math.min(clickNum/viewNum, .9);
-			clicks.push([i, clickNum]);
-			views.push([i, viewNum]);
-			ctr.push([i, ctrNum]);
-		}
+	$("#promote-btn").click(function() {
+		$("#promotion-panel").fadeOut('fast');
+		$("#analytics").fadeIn('fast', function () {
+			var clicks = [];
+			var views = [];
+			var ctr = [];
+			for (var i = 0; i < 28; i += 1) {
+				var clickNum = Math.pow(Math.max(Math.floor(((Math.random())*10)+i), 0), 2.6);
+				var viewNum = Math.pow(Math.max(Math.floor(((Math.random())*40)+i), 0), 2.5);
+				var ctrNum = Math.min(clickNum/viewNum, .9);
+				clicks.push([i, clickNum]);
+				views.push([i, viewNum]);
+				ctr.push([i, ctrNum]);
+			}
 
-		$.plot($("#views"), [views]);
-		$.plot($("#clicks"), [clicks]);
-		$.plot($("#ctr"), [ctr]);
+			$.plot($("#views"), [views]);
+			$.plot($("#clicks"), [clicks]);
+			$.plot($("#ctr"), [ctr]);
+		});
 	});
 });
 
