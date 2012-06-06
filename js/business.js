@@ -400,6 +400,6 @@ function createComplexText(event) {
 	text += "<div class='tooltip-description'>";
 	text += event.desc;
 	text += "</div>";
-	text += "<div class='tooltip-links'><a class='tooltip-promote' href='#'>Promote event!</a></div>";
+	text += "<div class='tooltip-links'><a class='tooltip-promote' href='promote.html'>Promote event!</a></div>";
 	return text;
 }
