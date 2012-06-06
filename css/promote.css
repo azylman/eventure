@@ -27,3 +27,13 @@
 	font-size: 20px;
 	line-height: 24px;
 }
+
+#interests {
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+#terms {
+	font-style: italic;
+}
