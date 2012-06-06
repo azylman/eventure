@@ -7,6 +7,12 @@ var kayakid = "";
 var ron2 = "";
 var ron2id = "";
 
+var city = "";
+var cityid = "";
+
+var goose = "";
+var gooseid = "";
+
 var recommendations = [
 	{
 		title  : 'Class Photo & March Thru the Arch',
@@ -84,7 +90,7 @@ var recommendations = [
 		image : 'http://www.resourcecenterchicago.org/images/viewfromroof2.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$5',
-		anim: -1
+		anim: 4
 	},
 	{
 		title  : 'Private Show at ComedySportz',
@@ -256,7 +262,7 @@ var sponsoredRecommendations = [
 		image : 'http://www.gooseisland.com/goosefilebin/images/clybourn3.jpg',
 		ticket : 'http://nbo.universitytickets.com/user_pages/category.asp?id=34',
 		price: '$13',
-		anim: -1
+		anim: 5
 	},
 	{
 		title  : 'Goose Island Private Tour and Tasting',
