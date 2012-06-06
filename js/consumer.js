@@ -452,6 +452,12 @@ $('#calendar').fullCalendar({
 							$(goose).show();
 							closeQtip(cityid);
 					});
+					$("#ui-tooltip-" + cityid + " .tooltip-why").live(
+						'click',
+						function() {
+							$("#ui-tooltip-" + cityid + " .tooltip-why").hide();
+							$("#ui-tooltip-" + cityid + " .tooltip-reason").fadeIn('fast');
+					});
 					break;
 				case 5:
 					console.log("found goose");
@@ -486,7 +492,8 @@ function createComplexText(event) {
 	text += "</div>";
 	text += "<div class='tooltip-links'><a href='";
 	text += event.ticket;
-	text += "'>Buy tickets!</a> - <a href='#' class='tooltip-add'>Add to calendar</a> - <a href='#' class='tooltip-not'>Not interested</a><br/><a href='#' class='tooltip-why'>Why this?</a></div>";
+	text += "'>Buy tickets!</a> - <a href='#' class='tooltip-add'>Add to calendar</a> - <a href='#' class='tooltip-not'>Not interested</a><br/>";
+	text += "<a href='#' class='tooltip-why'>Why this?</a><span class='tooltip-reason' style='display:none'>Because you like vegetables!</span></div>";
 	return text;
 }
 
