@@ -3,13 +3,19 @@ $(document).ready(function() {
 	
 		var clicks = [];
 		var views = [];
-		for (var i = 0; i < 14; i += 1) {
-			clicks.push([i, Math.max(Math.floor(((Math.random()-.25)*10)+i), 0)]);
-			views.push([i, Math.max(Math.floor(((Math.random()+.25)*10)+i), 0)]);
+		var ctr = [];
+		for (var i = 0; i < 28; i += 1) {
+			var clickNum = Math.pow(Math.max(Math.floor(((Math.random())*10)+i), 0), 2.6);
+			var viewNum = Math.pow(Math.max(Math.floor(((Math.random())*40)+i), 0), 2.5);
+			var ctrNum = Math.min(clickNum/viewNum, .9);
+			clicks.push([i, clickNum]);
+			views.push([i, viewNum]);
+			ctr.push([i, ctrNum]);
 		}
 
 		$.plot($("#views"), [views]);
 		$.plot($("#clicks"), [clicks]);
+		$.plot($("#ctr"), [ctr]);
 	});
 });
 
