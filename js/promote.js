@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$("#promote-btn").click(function() {
-		$("#promotion-panel").fadeOut('fast');
+		$("#promotion-panel").hide();
 		$("#analytics").fadeIn('fast', function () {
 			var clicks = [];
 			var views = [];
